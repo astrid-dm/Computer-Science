@@ -1,5 +1,5 @@
 ### 무상태 프로토콜 (Stateless)
-![Stateful](https://github.com/Astrid-DM/Computer-Science/blob/main/WEB/Image_Folder/Screen%20Shot%202022-09-12%20at%208.06.48%20PM.png)
+![Stateful](https://github.com/Astrid-DM/Computer-Science/blob/main/WEB/Image_Folder/Screen%20Shot%202022-09-12%20at%208.10.01%20PM.png)
 - 서버가 클라이언트의 상태를 보존 X
 - 장점 : 서버 확장성이 높음 (스케일 아웃)
   - 갑자기 클라이언트의 요청이 증가해도 서버를 대거 투입할 수 있음 
