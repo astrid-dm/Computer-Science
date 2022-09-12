@@ -1,4 +1,4 @@
-### 인터넷을 키고 URL을 입력해서 화면에 보여지기까지 일어나는 과정
+# 인터넷을 키고 URL을 입력해서 화면에 보여지기까지 일어나는 과정
 1. 브라우저 주소창에 www.google.com을 입력
 2. 브라우저가 www.google.com의 IP주소를 찾기 위해 캐시에서 DNS 기록을 확인
 3. 만약 요청한 URL(www.google.com)이 캐시에 없다면, ISP의 DNS 서버가 DNS 쿼리로 www.google.com을 호스팅하는 서버의 IP 주소를 찾음 
