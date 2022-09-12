@@ -38,12 +38,14 @@
     3. 클아이언트는 서버로부터 SYN/ACK 패킷을 수신하고 ACK 패킷을 전송하여 승인
 
 ### 5. 브라우저가 웹 서버에 HTTP 요청을 보냄
+![Request](https://github.com/Astrid-DM/Computer-Science/blob/main/WEB/Image_Folder/Screen%20Shot%202022-09-12%20at%207.28.04%20PM.png)
 * TCP 연결이 설정되면 데이터 전송이 시작됨 (www.google.com 웹 페이지를 요청하는 GET 요청이 보내짐)
 * POST 요청의 경우 브라우저 식별 (User-Aget), 수락할 요청 유형 (Accept 헤더) 및 추가 요청을 위해 TCP 연결을 유지하라는 연결 헤더와 같은 추가 정보도 포함됨
 
 ### 6. 서버가 요청을 처리하고 응답(Response)을 보냄
 
 ### 7. 서버가 HTTP 응답을 보냄
+![Response](https://github.com/Astrid-DM/Computer-Science/blob/main/WEB/Image_Folder/Screen%20Shot%202022-09-12%20at%207.28.14%20PM.png)
 * 응답을 보면 `Status Code` 헤더에 상태 코드가 숫자로 표시됨. 이것은 우리에게 Response의 상태틑 알려줌
      * 1xx (Information Response): 정보 메시지만을 나타낸다. 서버가 요청을 받았으며 서버에 연결된 클라이언트는 계속해서 작업을 하라는 뜻
     * 2xx (Successful Response): 서버와의 요청이 성공함을 나타냄
