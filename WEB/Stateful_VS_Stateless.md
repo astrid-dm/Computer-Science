@@ -1,5 +1,5 @@
 ### 무상태 프로토콜 (Stateless)
-![Stateless](https://github.com/Astrid-DM/Computer-Science/blob/main/WEB/Image_Folder/Screen%20Shot%202022-09-12%20at%208.06.56%20PM.png)
+![Stateful](https://github.com/Astrid-DM/Computer-Science/blob/main/WEB/Image_Folder/Screen%20Shot%202022-09-12%20at%208.06.48%20PM.png)
 - 서버가 클라이언트의 상태를 보존 X
 - 장점 : 서버 확장성이 높음 (스케일 아웃)
   - 갑자기 클라이언트의 요청이 증가해도 서버를 대거 투입할 수 있음 
@@ -9,7 +9,7 @@
 ---
 
 ### 상태 프로토콜 (Stateful)
-![Stateful](https://github.com/Astrid-DM/Computer-Science/blob/main/WEB/Image_Folder/Screen%20Shot%202022-09-12%20at%208.06.56%20PM.png)
+![Stateless](https://github.com/Astrid-DM/Computer-Science/blob/main/WEB/Image_Folder/Screen%20Shot%202022-09-12%20at%208.06.56%20PM.png)
 - 서버가 클라이언트의 상태를 보존
 - 장점 : 서버는 클라이언트의 세션 정보를 저장하므로, 통신이 갑자기 중단되더라도 중단된 곳으로부터 재개 개능
 - 확장성이 좋지 않으므로, 갑작스레 클라이언트의 요청이 증가해 서버를 증설하더라도 스케일 아웃된 서버에 클라이언트의 세션 정보가 저장되지 않음 
