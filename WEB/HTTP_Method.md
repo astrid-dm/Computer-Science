@@ -21,9 +21,13 @@
     - ex : `PUT /members/100`
     - ex : `POST /members`
 - 리소스를 대체한다는 것이 큰 특징
+![PUT1](https://github.com/Astrid-DM/Computer-Science/blob/main/WEB/Image_Folder/Screen%20Shot%202022-09-12%20at%208.34.26%20PM.png)
+![PUT2](https://github.com/Astrid-DM/Computer-Science/blob/main/WEB/Image_Folder/Screen%20Shot%202022-09-12%20at%208.34.34%20PM.png)
 
 ### PATCH
 - PUT과 유사하나, PUT처럼 리소스를 완전히 대체하는 것이 아닌 리소스를 부분 변경
+![PUT1](https://github.com/Astrid-DM/Computer-Science/blob/main/WEB/Image_Folder/Screen%20Shot%202022-09-12%20at%208.34.26%20PM.png)
+![PATH](https://github.com/Astrid-DM/Computer-Science/blob/main/WEB/Image_Folder/Screen%20Shot%202022-09-12%20at%208.35.21%20PM.png)
 
 ### DELETE
 - 리소스 삭제
