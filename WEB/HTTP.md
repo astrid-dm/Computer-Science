@@ -46,7 +46,7 @@
 
 ### 5. 브라우저가 웹 서버에 HTTP 요청을 보냄
 
-![HTTP Request](https://velog.velcdn.com/images%2Fkhy226%2Fpost%2F5a45f724-f443-4c35-8c62-ade5b3e3e9cb%2F스크린샷%202021-09-27%20오전%202.29.49.png)
+![HTTP Request](https://velog.velcdn.com/images%2Fkhy226%2Fpost%2F5a45f724-f443-4c35-8c62-ade5b3e3e9cb%2F스크린샷%202021-09-27%20오전%202.29.49)
 * TCP 연결이 설정되면 데이터 전송이 시작됨 (www.google.com 웹 페이지를 요청하는 GET 요청이 보내짐)
 * POST 요청의 경우 브라우저 식별 (User-Aget), 수락할 요청 유형 (Accept 헤더) 및 추가 요청을 위해 TCP 연결을 유지하라는 연결 헤더와 같은 추가 정보도 포함됨
 <br/>
@@ -55,7 +55,7 @@
 <br/>
 
 ### 7. 서버가 HTTP 응답을 보냄
-![HTTP Response](https://velog.velcdn.com/images%2Fkhy226%2Fpost%2Ff51ea757-1bd1-45b3-b6bc-17cd82035c0c%2F스크린샷%202021-09-27%20오전%202.48.43.png)
+![HTTP Response](https://velog.velcdn.com/images%2Fkhy226%2Fpost%2Ff51ea757-1bd1-45b3-b6bc-17cd82035c0c%2F스크린샷%202021-09-27%20오전%202.48.43)
 * 응답을 보면 `Status Code` 헤더에 상태 코드가 숫자로 표시됨. 이것은 우리에게 Response의 상태틑 알려줌
      * 1xx (Information Response): 정보 메시지만을 나타낸다. 서버가 요청을 받았으며 서버에 연결된 클라이언트는 계속해서 작업을 하라는 뜻
     * 2xx (Successful Response): 서버와의 요청이 성공함을 나타냄
