@@ -46,7 +46,6 @@
 - 클라이언트의 상태를 어디선가 들고있어야 한다는 문제점을 해결하지 못함
 
 #
-#
 > 이러한 문제점을 해결하기 위해 나온 개념이 JWT
 
 ## 3. JWT
@@ -61,7 +60,6 @@
 ![JWT Structure](https://velog.velcdn.com/images/znftm97/post/aff45d8d-8f18-436f-9dc5-2c31cf41e9d4/image.png)
 ![JWT Example](https://velog.velcdn.com/images/znftm97/post/f2f7bd79-8475-4cb9-81cc-242e1f975421/image.png)
 - 각각 구분을 위해 `.`구분자가 들어감
-#
 #
 #
 
