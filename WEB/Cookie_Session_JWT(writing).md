@@ -47,6 +47,7 @@
 
 #
 > 이러한 문제점을 해결하기 위해 나온 개념이 JWT
+#
 
 ## 3. JWT
 ### 3-1. JWT 정의
@@ -64,3 +65,4 @@
 #
 
 > 출처 : [LTH님의 Velog - JWT란?](https://velog.io/@znftm97/JWT-Session-Cookie-비교-sphsi9yh) 
+#
