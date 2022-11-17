@@ -100,11 +100,20 @@
     - 따라서 페이로드에 중요한 정보는 담으면 안됨
 
 ## 4. Refresh Token
-### 등장배경
+### 4-1. 등장배경
 - 보안에 100%는 없음. 따라서 토큰이 노출되어 탈취당할 경우를 대비해야 하는데, 이런 경우를 대비해 사용하는게 `Refresh Token`
 - `Access Token`은 언제든지 탈취될 수 있다고 가정하기 때문에 `Access Token`에는 중요 정보를 담으면 안됨
 - 따라서 `Access Token`은 유효기간을 짧게 설정하고, `Refresh Token`의 유효기간은 길게 설정.
 - 물론 `Access Token`의 유효기간 동안에는 공격에 노출될 수 있지만, 피해를 최소화 하기 위해 유효기간을 짧게 설정함
+
+### 4-2. 공격자와 일반 유저를 구분하는 방법
+- 공격자는 탈취한 `Refresh Token`으로 계속 `Access Token`을 생성해서 정상적인 사용자처럼 서버에 계속 요청을 보낼 수 있음
+- 이를 대비해서 서버에서 추가 검증 로직으로 방어해야 함
+    - DB에 사용자와 `Access Token`, `Refresh Token`들을 매핑하여 저장
+    - 정상적인 유저의 `Access Token`이 만료된 경우
+        - `Access Token`과 `Refresh Token`을 서버로 보내서 새 `Access Token`을 요청 -> 서버에서는 DB에 저장된 `Access Token`, `Refresh Token` 쌍과 클라이언트에서 보낸 쌍을 비교 -> 일치하면 새 `Access Token`을 발급
+    - 공격자가 `Refresh Token`을 탈취한 경우
+        - 공격자가 탈취한 `Refresh Token`으로 새 `Access Token` 생성 요청 -> `Access Token` 없이 요청하면 공격으로 간주 -> 서버에서 `Access Token`, `Refresh Token` 폐기
 
 ## 5. JWT vs Session, Cookie
 ### 5-1. 누가 더 안전한가?
