@@ -154,5 +154,4 @@
 **결국 JWT도 완벽한 기술은 아니나, 차선책은 될 수 있다.**  
 #
 
-#
 > 출처 : [LTH님의 Velog - JWT란?](https://velog.io/@znftm97/JWT-Session-Cookie-비교-sphsi9yh) 
